@@ -1,4 +1,4 @@
-# Bi 624 (Fall 2017) – Problem Set 1
+# Bi 624 (Fall 2018) – Problem Set 1
 ## SF-Seq Quality Assessment Assignment
 
 The objectives of this assignment are to use existing tools for quality assessment and adaptor trimming, compare the quality assessments to those from your own software, and demonstrate your ability to summarize other important information about this RNA-Seq data set.
@@ -29,4 +29,4 @@ The demultiplexed .fastq files are here: ```/projects/bgmp/2017_sequencing/demul
 7. Demonstrate convincingly that the SF-Seq data are from “strand-specific” RNA-Seq libraries. There are a number of possible strategies to address this problem, but you need only implement one. Report your evidence in numeric and graphical (e.g. a plot) forms.
 
 **To turn in your work for this assignment**:
-Please upload your Talapas batch script/code, FastQC plots, answers to questions, and any additional plots/code to github. 
+Please upload your Talapas batch script/code, FastQC plots, answers to questions, and any additional plots/code to github. You should create a final, single file for submission (pdf, R markdown, or similar) containing all these elements. The three parts of the assignment should be clearly labeled
