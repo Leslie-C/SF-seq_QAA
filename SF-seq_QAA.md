@@ -26,7 +26,7 @@ The demultiplexed .fastq files are here: ```/projects/bgmp/2017_sequencing/demul
 ### Part 3 – rRNA reads and strand-specificity
 6. Find publicly available mouse rRNA sequences and generate a gsnap database from them. Align the SF-Seq reads to your mouse rRNA database and report the proportion of reads that likely came from rRNAs.
 
-7. Demonstrate convincingly that the SF-Seq data are from “strand-specific” RNA-Seq libraries. There are a number of possible strategies to address this problem, but you need only implement one. Report your evidence in numeric and graphical (e.g. a plot) forms.
+7. Demonstrate convincingly whether or not the SF-Seq data are from “strand-specific” RNA-Seq libraries. There are a few possible strategies to address this problem, but you need only implement one. Briefly describe your evidence, using quantitative statements (e.g. "I propose that these data are/are not strand-specific, because X% of the reads are y, as opposed to z.").
 
 **To turn in your work for this assignment**:
-Please upload your Talapas batch script/code, FastQC plots, answers to questions, and any additional plots/code to github. You should create a final, single file for submission (R markdown and the rendered pdf file) containing all these elements. The three parts of the assignment should be clearly labeled. Be sure to title and write a figure legend for each image/graph/table you present.
+Please upload your Talapas batch script/code, FastQC plots, answers to questions, and any additional plots/code to github. You should create at most 2 files for submission (R markdown and the rendered pdf file) containing all these elements. The three parts of the assignment should be clearly labeled. Be sure to title and write a figure legend for each image/graph/table you present.
