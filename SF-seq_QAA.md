@@ -4,15 +4,15 @@
 The objectives of this assignment are to use existing tools for quality assessment and adaptor trimming, compare the quality assessments to those from your own software, and demonstrate your ability to summarize other important information about this RNA-Seq data set.
 
 ### Data: 
-Each of you will be working with 2 of the demultiplexed file pairs. For all steps below, process the two libraries separately. Library assignments are here: ```/projects/bgmp/Bi624/PS1_file_assignments.tsv```
+Each of you will be working with 2 of the demultiplexed file pairs. For all steps below, process the two libraries separately. Library assignments are here: ```/projects/bgmp/shared/Bi624/PS1_file_assignments.tsv```
 
-The demultiplexed .fastq files are here: ```/projects/bgmp/2017_sequencing/demultiplexed/```
+The demultiplexed .fastq files are here: ```/projects/bgmp/shared/2017_sequencing/demultiplexed/```
 
 ### Part 1 – SF-Seq read quality score distributions
 
 1. Using ```FastQC``` on Talapas, produce plots of quality score distributions for forward and reverse reads. Also, produce plots of the per-base N content, and comment on whether or not they are consistent with the quality score plots.
 
-2. Review the results from your quality score plotting script (Demultiplexing assignment from Bi 622). Describe how the ```FastQC``` quality score distribution plots compare to your own. If different, propose an explanation. Also, does the runtime differ? If so, why?
+2. Run your quality score plotting script from your Demultiplexing assignment from Bi 622. Describe how the ```FastQC``` quality score distribution plots compare to your own. If different, propose an explanation. Also, does the runtime differ? If so, why?
 
 ### Part 2 – Adaptor trimming comparison
 
