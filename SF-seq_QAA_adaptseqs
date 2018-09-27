@@ -1,0 +1,14 @@
+“Y” adapter used for library construction:
+5'-AATGATACGGCGACCACCGAGATCTACACNNNNNNNNACACTCTTTCCCTACACGACGCTCTTCCGATC*T-3'
+                                                            CGAGAAGGCTAG/5Phos/-5’
+    3’-GTTCGTCTTCTGCCGTATGCTCTANNNNNNNNCACTGACCTCAAGTCTGCACA
+
+
+Expected “run-through” adapter sequences to trim from Illumina reads R1 and R2:
+R1: 5’-AGATCGGAAGAGCACACGTCTGAACTCCAGTCA[index]…3’
+R2: 5’-AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT[index]…3’
+
+Note: index sequences will differ, so only feed the trimmer the sequence up to the index.
+      (everything downstream will be trimmed accordingly)
+
+
